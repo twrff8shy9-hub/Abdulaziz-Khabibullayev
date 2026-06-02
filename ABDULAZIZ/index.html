@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Estate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-zinc-950 text-white overflow-x-hidden">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full z-50 backdrop-blur-xl bg-black/30 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-widest">LUXESTATE</h1>
+
+      <nav class="hidden md:flex gap-10 text-sm uppercase">
+        <a href="#" class="hover:text-amber-400 transition">Home</a>
+        <a href="#" class="hover:text-amber-400 transition">Properties</a>
+        <a href="#" class="hover:text-amber-400 transition">About</a>
+        <a href="#" class="hover:text-amber-400 transition">Contact</a>
+      </nav>
+
+      <button class="border border-white px-5 py-2 rounded-full hover:bg-white hover:text-black transition">
+        Book Tour
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section
+    class="min-h-screen bg-cover bg-center flex items-center"
+    style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80');">
+
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6">
+      <div class="max-w-4xl">
+
+        <p class="uppercase tracking-[8px] text-amber-400 mb-4">
+          Luxury Real Estate
+        </p>
+
+        <h1 class="text-6xl md:text-8xl font-black leading-tight">
+          Discover
+          <span class="text-amber-400">Exceptional</span>
+          Living
+        </h1>
+
+        <p class="mt-8 text-xl text-gray-300 max-w-2xl">
+          Explore premium properties crafted with elegance,
+          comfort and timeless architecture.
+        </p>
+
+        <div class="mt-10 flex gap-4">
+          <button class="bg-amber-400 text-black px-8 py-4 rounded-full font-bold">
+            View Properties
+          </button>
+
+          <button class="border border-white px-8 py-4 rounded-full">
+            Learn More
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-20 bg-black">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+
+      <div class="text-center">
+        <h2 class="text-5xl font-bold text-amber-400">500+</h2>
+        <p class="text-gray-400 mt-2">Luxury Homes Sold</p>
+      </div>
+
+      <div class="text-center">
+        <h2 class="text-5xl font-bold text-amber-400">20+</h2>
+        <p class="text-gray-400 mt-2">Years Experience</p>
+      </div>
+
+      <div class="text-center">
+        <h2 class="text-5xl font-bold text-amber-400">98%</h2>
+        <p class="text-gray-400 mt-2">Client Satisfaction</p>
+      </div>
+
+      <div class="text-center">
+        <h2 class="text-5xl font-bold text-amber-400">15</h2>
+        <p class="text-gray-400 mt-2">Global Locations</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Featured Properties -->
+  <section class="py-32">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h2 class="text-5xl font-bold text-center mb-16">
+        Featured Properties
+      </h2>
+
+      <div class="grid lg:grid-cols-3 gap-8">
+
+        <!-- Card -->
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-white/10 hover:-translate-y-2 transition">
+
+          <img
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+            class="h-72 w-full object-cover">
+
+          <div class="p-6">
+            <p class="text-amber-400 text-3xl font-bold">$4.8M</p>
+            <h3 class="text-2xl font-bold mt-3">
+              Beverly Hills Estate
+            </h3>
+            <p class="text-gray-400 mt-2">
+              6 Beds • 8 Baths • 9500 Sq Ft
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-white/10 hover:-translate-y-2 transition">
+
+          <img
+            src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80"
+            class="h-72 w-full object-cover">
+
+          <div class="p-6">
+            <p class="text-amber-400 text-3xl font-bold">$6.2M</p>
+            <h3 class="text-2xl font-bold mt-3">
+              Oceanfront Villa
+            </h3>
+            <p class="text-gray-400 mt-2">
+              8 Beds • 10 Baths • 12000 Sq Ft
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-white/10 hover:-translate-y-2 transition">
+
+          <img
+            src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80"
+            class="h-72 w-full object-cover">
+
+          <div class="p-6">
+            <p class="text-amber-400 text-3xl font-bold">$8.1M</p>
+            <h3 class="text-2xl font-bold mt-3">
+              Skyline Penthouse
+            </h3>
+            <p class="text-gray-400 mt-2">
+              5 Beds • 6 Baths • 7000 Sq Ft
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Amenities -->
+  <section class="py-32 bg-black">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h2 class="text-5xl font-bold text-center mb-16">
+        Premium Amenities
+      </h2>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
+          <h3 class="text-2xl font-bold mb-3">🏊 Infinity Pool</h3>
+          <p class="text-gray-400">Luxury resort-style pool experience.</p>
+        </div>
+
+        <div class="p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
+          <h3 class="text-2xl font-bold mb-3">🎬 Cinema Room</h3>
+          <p class="text-gray-400">Private theater with premium seating.</p>
+        </div>
+
+        <div class="p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
+          <h3 class="text-2xl font-bold mb-3">🍷 Wine Cellar</h3>
+          <p class="text-gray-400">Temperature-controlled collection room.</p>
+        </div>
+
+        <div class="p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
+          <h3 class="text-2xl font-bold mb-3">🏋️ Fitness Center</h3>
+          <p class="text-gray-400">State-of-the-art wellness facilities.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-32">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h2 class="text-5xl font-bold text-center mb-16">
+        Client Testimonials
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <p class="text-gray-300">
+            “An exceptional buying experience from start to finish.”
+          </p>
+          <h4 class="mt-6 font-bold text-amber-400">
+            Michael Anderson
+          </h4>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <p class="text-gray-300">
+            “Luxury properties and world-class service.”
+          </p>
+          <h4 class="mt-6 font-bold text-amber-400">
+            Sarah Johnson
+          </h4>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <p class="text-gray-300">
+            “The best real estate agency I've ever worked with.”
+          </p>
+          <h4 class="mt-6 font-bold text-amber-400">
+            David Wilson
+          </h4>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-32 bg-black">
+    <div class="max-w-4xl mx-auto px-6">
+
+      <h2 class="text-5xl font-bold text-center mb-12">
+        Frequently Asked Questions
+      </h2>
+
+      <details class="bg-zinc-900 rounded-2xl p-6 mb-4">
+        <summary class="cursor-pointer text-xl font-bold">
+          How do I schedule a property tour?
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Contact our agents using the form below.
+        </p>
+      </details>
+
+      <details class="bg-zinc-900 rounded-2xl p-6 mb-4">
+        <summary class="cursor-pointer text-xl font-bold">
+          Do you offer international listings?
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Yes, we offer luxury properties worldwide.
+        </p>
+      </details>
+
+      <details class="bg-zinc-900 rounded-2xl p-6">
+        <summary class="cursor-pointer text-xl font-bold">
+          Are private consultations available?
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Absolutely. We provide personalized consultations.
+        </p>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-32">
+    <div class="max-w-4xl mx-auto px-6">
+
+      <div class="bg-gradient-to-r from-zinc-900 to-black border border-white/10 p-10 rounded-[40px]">
+
+        <h2 class="text-5xl font-bold mb-10 text-center">
+          Contact Us
+        </h2>
+
+        <form class="space-y-6">
+
+          <input
+            type="text"
+            placeholder="Full Name"
+            class="w-full p-4 rounded-xl bg-zinc-800 border border-white/10">
+
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="w-full p-4 rounded-xl bg-zinc-800 border border-white/10">
+
+          <textarea
+            rows="5"
+            placeholder="Message"
+            class="w-full p-4 rounded-xl bg-zinc-800 border border-white/10"></textarea>
+
+          <button
+            class="w-full bg-amber-400 text-black py-4 rounded-xl font-bold text-lg">
+            Send Inquiry
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-10 text-center text-gray-500">
+    © 2026 LuxEstate. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
